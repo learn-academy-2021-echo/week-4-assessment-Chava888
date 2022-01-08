@@ -271,6 +271,7 @@ describe("uniqueValues", () => {
 
     var testArray1 = [3, 7, 10, 5, 4, 3, 3]
     var testArray2 = [7, 8, 2, 3, 1, 5, 4]
+    // Expected output: [3, 7, 10, 5, 4, 8, 2, 1]
 
     it("Takes an input of two arrays and outputs an array of the unique values", () => {
 
